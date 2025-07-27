@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignSync: Voice to ASL Demo</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SignSync Demo</h1>
+
+        <div class="audio-section">
+            <h2>1. Record Your Voice</h2>
+            <button id="startButton">Start Recording</button>
+            <button id="stopButton" disabled>Stop Recording</button>
+            <audio id="audioPlayer" controls></audio>
+            <p id="audioPlayerMessage">Click "Start Recording" to begin.</p>
+        </div>
+
+        <div class="asl-section">
+            <h2>2. Watch ASL Output</h2>
+            <video id="aslVideoPlayer" controls autoplay muted loop></video>
+            <p id="aslMessage"></p>
+        </div>
+    </div>
+
+    <script src="static/js/script.js"></script>
+</body>
+</html>

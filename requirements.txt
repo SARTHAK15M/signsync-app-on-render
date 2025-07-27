@@ -1,0 +1,6 @@
+# C:\Users\Sarthak\Desktop\SignSyncProject\requirements.txt
+Flask
+speechrecognition
+pydub
+Flask-Cors
+gunicorn
