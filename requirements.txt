@@ -4,3 +4,4 @@ speechrecognition
 pydub
 Flask-Cors
 gunicorn
+pocketsphinx
